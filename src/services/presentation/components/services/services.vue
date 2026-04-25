@@ -27,7 +27,6 @@ onMounted(() => {
     </div>
 
     <div class="services-grid">
-      <!-- Card 1: Analítica y Facturación -->
       <div class="service-card card--light">
         <div class="card-content">
           <div class="card-title-badge badge--blue">
@@ -39,7 +38,6 @@ onMounted(() => {
         </div>
       </div>
 
-      <!-- Card 2: Órdenes de trabajo -->
       <div class="service-card card--blue">
         <div class="card-content">
           <div class="card-title-badge badge--white">
@@ -51,7 +49,6 @@ onMounted(() => {
         </div>
       </div>
 
-      <!-- Card 3: Fidelización de clientes -->
       <div class="service-card card--dark">
         <div class="card-content">
           <div class="card-title-badge badge--white">
@@ -63,7 +60,6 @@ onMounted(() => {
         </div>
       </div>
 
-      <!-- Card 4: Registro de citas y clientes -->
       <div class="service-card card--light">
         <div class="card-content">
           <div class="card-title-badge badge--blue">
@@ -75,7 +71,6 @@ onMounted(() => {
         </div>
       </div>
 
-      <!-- Card 5: Control de Inventario -->
       <div class="service-card card--blue">
         <div class="card-content">
           <div class="card-title-badge badge--white">
@@ -87,7 +82,6 @@ onMounted(() => {
         </div>
       </div>
 
-      <!-- Card 6: Asignación de personal -->
       <div class="service-card card--dark">
         <div class="card-content">
           <div class="card-title-badge badge--blue">
@@ -132,7 +126,7 @@ onMounted(() => {
   color: #757575;
   line-height: 1.5;
   max-width: 700px;
-  min-height: 3em; /* Evita saltos de layout mientras se escribe */
+  min-height: 3em;
 }
 
 .cursor {
