@@ -5,7 +5,7 @@ import joelImg from '@/assets/images/joel.png'
 import adielImg from '@/assets/images/adiel.png'
 import aldoImg from '@/assets/images/aldo.png'
 import danielImg from '@/assets/images/daniel.png'
-import marianaImg from '@/assets/images/mariana.png'
+import jenniferImg from '@/assets/images/jennifer.png'
 
 const members = ref([
   {
@@ -33,10 +33,10 @@ const members = ref([
     imageUrl: danielImg
   },
   {
-    name: 'Mariana Morocho Pinedo',
+    name: 'Jennifer Yamilet Riveros Vera',
     role: 'Team Member',
     description: 'Estudiante de la Universidad Peruana de Ciencias Aplicadas de la carrera de Ingeniería de Software. Especializada en datos.',
-    imageUrl: marianaImg
+    imageUrl: jenniferImg
   }
 ])
 </script>
