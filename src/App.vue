@@ -4,6 +4,7 @@ import Hero from './value-proposition/presentation/components/hero/hero.vue'
 import Services from './services/presentation/components/services/services.vue'
 import Pricing from './pricing/presentation/components/pricing/pricing.vue'
 import Team from './team/presentation/components/team/team.vue'
+import Footer from './shared/presentation/components/footer/footer.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Team from './team/presentation/components/team/team.vue'
     <Pricing />
     <Team />
   </main>
+  <Footer />
 </template>
 
 <style scoped></style>
